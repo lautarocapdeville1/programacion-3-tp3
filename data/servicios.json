@@ -1,81 +1,15 @@
 [
-    {
-        "id": 1,
-        "nombre": "Plan Nutricional Personalizado",
-        "descripcion": "Asesoramiento con dieta según objetivos.",
-        "precio": 50000
-    },
-    {
-        "id": 2,
-        "nombre": "Evaluacion Fisica",
-        "descripcion": "Medición de rendimiento, composición corporal y estado físico general.",
-        "precio": 30000
-    },
-    {
-        "id": 3,
-        "nombre": "Yoga",
-        "descripcion": "Clases de yoga para mejorar flexibilidad, equilibrio y bienestar general.",
-        "precio": 40000
-    },
-    {
-        "id": 4,
-        "nombre": "Stretching",
-        "descripcion": "Sesiones de estiramiento para mejorar la flexibilidad y reducir el riesgo de lesiones.",
-        "precio": 20000
-    },
-    {
-        "id": 5,
-        "nombre": "Pilates",
-        "descripcion": "Clases de pilates para fortalecer el core y mejorar la postura.",
-        "precio": 45000
-    },
-    {
-        "id": 6,
-        "nombre": "Entrenamiento Funcional",
-        "descripcion": "Sesiones de entrenamiento funcional para mejorar la fuerza, resistencia y movilidad.",
-        "precio": 55000
-    },
-    {
-        "id": 7,
-        "nombre": "Crossfit",
-        "descripcion": "Clases de crossfit para mejorar la condición física general a través de ejercicios variados e intensos.",
-        "precio": 60000
-    },
-    {
-        "id": 8,
-        "nombre": "Boxeo",
-        "descripcion": "Clases de boxeo para mejorar la resistencia cardiovascular, la coordinación y la fuerza.",
-        "precio": 45000
-    },
-    {
-        "id": 9,
-        "nombre": "HIIT",
-        "descripcion": "Clases de HIIT para mejorar la resistencia cardiovascular y quemar calorías.",
-        "precio": 35000
-    },
-    {
-        "id": 10,
-        "nombre": "Spinning",
-        "descripcion": "Clases de spinning para mejorar la resistencia cardiovascular y tonificar las piernas.",
-        "precio": 40000
-    },
-    {
-        "id": 11,
-        "nombre": "Zumba",
-        "descripcion": "Clases de zumba para mejorar la resistencia cardiovascular y divertirse al ritmo de la música.",
-        "precio": 30000
-    },
-    {
-        "id": 12,
-        "nombre": "Entrenamiento Personalizado",
-        "descripcion": "Sesiones de entrenamiento personalizado para alcanzar tus objetivos específicos.",
-        "precio": 70000
-    },
-    {
-        "id": 13,
-        "nombre": "Masajes Deportivos",
-        "descripcion": "Masajes para aliviar la tensión muscular y mejorar la recuperación después del ejercicio.",
-        "precio": 25000
-    }
-
+    {"id":1, "precio":50000,"desc":"Asesoramiento con dieta según objetivos."},
+    {"id":2, "precio":30000,"desc":"Medición de rendimiento, composición corporal y estado físico general."},
+    {"id":3, "precio":40000,"desc":"Clases de yoga para mejorar flexibilidad, equilibrio y bienestar general."},
+    {"id":4, "precio":20000,"desc":"Sesiones de estiramiento para mejorar la flexibilidad y reducir el riesgo de lesiones."},
+    {"id":5, "precio":45000,"desc":"Clases de pilates para fortalecer el core y mejorar la postura."},
+    {"id":6, "precio":55000,"desc":"Sesiones de entrenamiento funcional para mejorar la fuerza, resistencia y movilidad."},
+    {"id":7, "precio":60000,"desc":"Clases de crossfit para mejorar la condición física general a través de ejercicios variados e intensos."},
+    {"id":8, "precio":45000,"desc":"Clases de boxeo para mejorar la resistencia cardiovascular, la coordinación y la fuerza."},
+    {"id":9, "precio":35000,"desc":"Clases de HIIT para mejorar la resistencia cardiovascular y quemar calorías."},
+    {"id":10, "precio":40000,"desc":"Clases de spinning para mejorar la resistencia cardiovascular y tonificar las piernas."},
+    {"id":11, "precio":30000,"desc":"Clases de zumba para mejorar la resistencia cardiovascular y divertirse al ritmo de la música."},
+    {"id":12, "precio":70000,"desc":"Sesiones de entrenamiento personalizado para alcanzar tus objetivos específicos."},
+    {"id":13, "precio":25000,"desc":"Clases de baile para mejorar la coordinación, el equilibrio y la resistencia cardiovascular."}
 ]
