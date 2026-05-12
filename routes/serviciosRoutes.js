@@ -5,4 +5,4 @@ const routes = Router()
 
 routes.get('/', getServicios)
 
-module.export = routes
+module.exports = routes

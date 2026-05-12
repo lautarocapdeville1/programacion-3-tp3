@@ -16,4 +16,4 @@ const getServicios = async (req, res) => {
   }
 }
 
-module.export = { getServicios }
+module.exports = { getServicios }
