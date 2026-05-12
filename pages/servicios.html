@@ -32,54 +32,28 @@
       </nav>
     </header>
 
+
 <main class="contenedor-servicios">
       
 
   <h1>Servicios</h1>
   <div class="servicios-grid">
-
-    <div class="servicio">
-        <img src="../assets/img/nutricion.jpg" alt="Plan nutricional">
-        <h2>Plan Nutricional</h2>
-        <p>Asesoramiento con dieta según objetivos.</p>
-
-        <h3>Plan Inicial</h3>
-        <p>Incluye asesoramiento con dieta personalizada.</p>
-        <p><strong>$20.000 / mes</strong></p>
-
-        <h3>Plan Pro</h3>
-        <p>Incluye asesoramiento con dieta, asistente por WhatsApp y entrenador profesional.</p>
-        <p><strong>$50.000 / mes</strong></p>
-    </div>
-
   
-    <div class="servicio">
-       <img src="../assets/img/evaluacion.jpg" alt="Evaluación física">
-       <h2>Evaluación Física</h2>
-        <p>Medición de rendimiento, composición corporal y estado físico general.</p>
-        <p><strong>$30.000</strong></p>
-    </div>
-
-    <!-- CLASES GRUPALES -->
-    <div class="servicio">
-       <img src="../assets/img/clases.jpg" alt="Clases grupales">
-       <h2>Clases Grupales</h2>
-       <ul>
-           <li>Yoga</li>
-           <li>Stretching</li>
-           <li>Cycling</li>
-           <li>Funcional</li>
-           <li>HIIT</li>
-    </ul>
-
-    <p>Incluye 10 clases por mes.</p>
-    <p><strong>$90.000 / mes</strong></p>
+    
+   <div id="modal" class="modal oculto">
+      <div class="modal-contenido">
+          <span id="cerrar-modal">✕</span>
+          <h2 id="modal-nombre"></h2>
+          <p id="modal-desc"></p>
+          <p id="modal-precio"></p>
+      </div>
+  </div>
  </div>
  
 </div>
 
 </main>
-
+  <script type="module" src="../js/servicios.js"></script>
 </body>
 
 </html>
