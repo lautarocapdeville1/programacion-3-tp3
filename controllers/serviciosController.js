@@ -16,4 +16,25 @@ const getServicios = async (req, res) => {
   }
 }
 
-module.exports = { getServicios }
+const getServicioById = async (req, res) => {
+  const { id } = req.params
+  try {
+    const data = await fs.readFile('./data/servicios.json', 'utf8')
+    const servicios = JSON.parse(data)
+
+    const servicioId = servicios.find((s) => s.id === parseInt(id))
+
+    if (!servicioId) {
+      return res.status(404).json({ msg: 'No existe el servicio con ese id ' })
+    }
+
+    return res.status(200).json(servicioId)
+  } catch (error) {
+    console.log(error)
+    return res
+      .status(500)
+      .json({ error: `Error al obtener el servicio con id ${id}` })
+  }
+}
+
+module.exports = { getServicios, getServicioById }
