@@ -1,7 +1,7 @@
 {
-  "name": "tp3",
+  "name": "tp",
   "version": "1.0.0",
-  "description": "grupo1",
+  "description": "Grupo 1",
   "homepage": "https://github.com/lautarocapdeville1/programacion-3-tp3#readme",
   "bugs": {
     "url": "https://github.com/lautarocapdeville1/programacion-3-tp3/issues"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/lautarocapdeville1/programacion-3-tp3.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Bautista Bartolini Lautaro Capdeville Bautista Cutini Francesco Dicarli Santino Crivera",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "start": "nodemon app.js",
     "lint": "npx standard",
     "fix": "npx standard --fix",
-    "prepare": "husky"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.6",
