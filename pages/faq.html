@@ -1,99 +1,104 @@
-
-
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Gimnasio Gabrielli - Preguntas frecuentes">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Gimnasio Gabrielli - Preguntas frecuentes"
+    />
     <title>Preguntas frecuentes - Gimnasio Gabrielli</title>
-    <link rel="shortcut icon" href="../assets/favicon/gimnasio_favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon/gimnasio_favicon.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap');
 
+      .faq {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      }
 
-.faq {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
+      .faq h1 {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0d0d0d;
+        text-align: center;
+        margin-bottom: 30px;
+      }
 
-.faq h1 {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #0d0d0d;
-  text-align: center;
-  margin-bottom: 30px;
-}
+      .faq details {
+        margin-bottom: 10px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s;
+      }
 
-.faq details {
-  margin-bottom: 10px;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s;
-}
+      .faq details:hover {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
 
-.faq details:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
+      .faq summary {
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #e63312;
+        padding: 15px 20px;
+        cursor: pointer;
+        list-style: none;
+        outline: none;
+        transition: background 0.3s;
+      }
 
-.faq summary {
-  font-family: 'Barlow', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #e63312;
-  padding: 15px 20px;
-  cursor: pointer;
-  list-style: none;
-  outline: none;
-  transition: background 0.3s;
-}
+      .faq summary:hover {
+        background: #f9f9f9;
+      }
 
-.faq summary:hover {
-  background: #f9f9f9;
-}
+      .faq summary::marker {
+        display: none;
+      }
 
-.faq summary::marker {
-  display: none;
-}
+      .faq summary::before {
+        content: '▶';
+        font-size: 16px;
+        margin-right: 10px;
+        transition: transform 0.3s;
+      }
 
-.faq summary::before {
-  content: '▶';
-  font-size: 16px;
-  margin-right: 10px;
-  transition: transform 0.3s;
-}
+      .faq details[open] summary::before {
+        transform: rotate(90deg);
+      }
 
-.faq details[open] summary::before {
-  transform: rotate(90deg);
-}
-
-.faq p {
-  font-family: 'Barlow', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  padding: 0 20px 15px 20px;
-}
+      .faq p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+        padding: 0 20px 15px 20px;
+      }
     </style>
   </head>
   <body>
-
     <header>
       <nav>
         <div class="nav-inner">
-
           <div class="nav-logo">
-            <img src="../assets/img/Gimnasio gabreilli.jpg" alt="Logo Gimnasio Gabrielli">
+            <img
+              src="../assets/img/Gimnasio gabreilli.jpg"
+              alt="Logo Gimnasio Gabrielli"
+            />
             <span>Gimnasio <strong>Gabrielli</strong></span>
           </div>
 
@@ -102,56 +107,89 @@
             <li><a href="servicios.html">Servicios</a></li>
             <li><a href="equipo.html">Equipo</a></li>
             <li><a href="contacto.html">Contacto</a></li>
-              <li><a href="registro.html">Registrate</a></li> 
-              <li><a href="pages/login.html" >Iniciar sesión</a></li>
+            <li><a href="registro.html">Registrate</a></li>
+            <li><a href="pages/login.html">Iniciar sesión</a></li>
             <li><a href="faq.html" class="active">Preguntas frecuentes</a></li>
             <li><a href="pedido.html" class="nav-cta">Inscribirse</a></li>
           </ul>
-
         </div>
       </nav>
     </header>
 
     <main>
-        <section class="faq">
-            <img src="../assets/favicon/gimnasio_favicon.jpg" alt="Favicon del Gimnasio Gabrielli" style="display: block; margin: 0 auto 20px; max-width: 100px; height: auto;">
-            <h1>Preguntas frecuentes</h1>
-            <details>
-                <summary>¿Cuales son los horarios de apertura?</summary>
-                <p>Nuestro gimnasio esta abierto de lunes a viernes de 6:00 a 22:00, y los fines de semana de 8:00 a 20:00.</p>
-            </details>
-            <details>
-                <summary>¿Ofrecen clases grupales?</summary>
-                <p>Si, ofrecemos una variedad de clases grupales como yoga, pilates, spinning y entrenamiento funcional. Consulta nuestro horario para mas detalles.</p>
-            </details>
-            <details>
-                <summary>¿Tienen entrenadores personales?</summary>
-                <p>Si, contamos con un equipo de entrenadores personales certificados que pueden ayudarte a alcanzar tus objetivos de fitness. Puedes reservar una sesion con ellos en la recepcion.</p>
-            </details>
-            <details>
-                <summary>¿Ofrecen servicios de nutricion?</summary>
-                <p>Si, ofrecemos servicios de nutricion y asesoramiento dietetico para ayudarte a alcanzar tus metas de salud y bienestar.</p>
-            </details>
-                <details>
-                    <summary>¿Cuales son las opciones de membresia?</summary>
-                    <p>Ofrecemos varias opciones de membresia, Basica Premium Y VIP . Consulta nuestra pagina de servicios para mas detalles.</p>
-                </details>
-                <details>
-                    <summary>Se puede pagar de manera mensual? que otras formas de pago hay?</summary>
-                    <p>Si, ofrecemos la opcion de pagar de manera mensual. Tambien aceptamos tarjetas de credito y debito, asi como transferencias bancarias.</p>
-                </details>
-                <details>
-                    <summary>¿Que horarios de apertura y cierre tienen?</summary>
-                    <p>De 7:00 AM a 22:00 PM!</p>
-                </details>
-                <details>
-                    <summary> El licenciado salomone puede darte recetas?</summary>
+      <section class="faq">
+        <img
+          src="../assets/favicon/gimnasio_favicon.jpg"
+          alt="Favicon del Gimnasio Gabrielli"
+          style="
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 100px;
+            height: auto;
+          "
+        />
+        <h1>Preguntas frecuentes</h1>
+        <details>
+          <summary>¿Cuales son los horarios de apertura?</summary>
+          <p>
+            Nuestro gimnasio esta abierto de lunes a viernes de 6:00 a 22:00, y
+            los fines de semana de 8:00 a 20:00.
+          </p>
+        </details>
+        <details>
+          <summary>¿Ofrecen clases grupales?</summary>
+          <p>
+            Si, ofrecemos una variedad de clases grupales como yoga, pilates,
+            spinning y entrenamiento funcional. Consulta nuestro horario para
+            mas detalles.
+          </p>
+        </details>
+        <details>
+          <summary>¿Tienen entrenadores personales?</summary>
+          <p>
+            Si, contamos con un equipo de entrenadores personales certificados
+            que pueden ayudarte a alcanzar tus objetivos de fitness. Puedes
+            reservar una sesion con ellos en la recepcion.
+          </p>
+        </details>
+        <details>
+          <summary>¿Ofrecen servicios de nutricion?</summary>
+          <p>
+            Si, ofrecemos servicios de nutricion y asesoramiento dietetico para
+            ayudarte a alcanzar tus metas de salud y bienestar.
+          </p>
+        </details>
+        <details>
+          <summary>¿Cuales son las opciones de membresia?</summary>
+          <p>
+            Ofrecemos varias opciones de membresia, Basica Premium Y VIP .
+            Consulta nuestra pagina de servicios para mas detalles.
+          </p>
+        </details>
+        <details>
+          <summary>
+            Se puede pagar de manera mensual? que otras formas de pago hay?
+          </summary>
+          <p>
+            Si, ofrecemos la opcion de pagar de manera mensual. Tambien
+            aceptamos tarjetas de credito y debito, asi como transferencias
+            bancarias.
+          </p>
+        </details>
+        <details>
+          <summary>¿Que horarios de apertura y cierre tienen?</summary>
+          <p>De 7:00 AM a 22:00 PM!</p>
+        </details>
+        <details>
+          <summary>El licenciado salomone puede darte recetas?</summary>
 
-                    <p>Si, el licenciado salomone es nutricionista y puede proporcionarte recetas saludables y 20 tipos distintos de milanesas y son muy ricas.</p>
-
-
-                </details>
-        </section>
+          <p>
+            Si, el licenciado salomone es nutricionista y puede proporcionarte
+            recetas saludables y 20 tipos distintos de milanesas y son muy
+            ricas.
+          </p>
+        </details>
+      </section>
     </main>
 
     <footer>
@@ -159,7 +197,5 @@
         Copyright &copy; 2026 Gimnasio Gabrielli. Todos los derechos reservados.
       </p>
     </footer>
-
   </body>
 </html>
-

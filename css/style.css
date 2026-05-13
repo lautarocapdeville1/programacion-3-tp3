@@ -78,7 +78,9 @@ header nav {
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 4px;
-  transition: color 0.2s, background 0.2s;
+  transition:
+    color 0.2s,
+    background 0.2s;
   position: relative;
 }
 
@@ -309,7 +311,7 @@ header nav {
   margin-top: 10px;
 }
 
-.form-buttons button[type="submit"] {
+.form-buttons button[type='submit'] {
   flex: 1;
   padding: 12px;
   background-color: #e63946;
@@ -322,11 +324,11 @@ header nav {
   transition: background 0.2s;
 }
 
-.form-buttons button[type="submit"]:hover {
+.form-buttons button[type='submit']:hover {
   background-color: #c1121f;
 }
 
-.form-buttons button[type="reset"] {
+.form-buttons button[type='reset'] {
   flex: 1;
   padding: 12px;
   background-color: transparent;
@@ -339,7 +341,7 @@ header nav {
   transition: all 0.2s;
 }
 
-.form-buttons button[type="reset"]:hover {
+.form-buttons button[type='reset']:hover {
   background-color: #e63946;
   color: white;
 }
@@ -372,7 +374,6 @@ footer {
 .footer p {
   margin: 0;
 
- 
   color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;
 }
@@ -390,8 +391,6 @@ footer {
   padding: 40px;
 }
 
-
-
 .registro-section form {
   display: grid;
   gap: 18px;
@@ -399,7 +398,7 @@ footer {
 
 .registro-section label {
   font-family: 'Barlow', sans-serif;
-  font-size: 20px  ;
+  font-size: 20px;
   color: #460505;
 }
 
@@ -412,8 +411,6 @@ footer {
   outline: none;
   transition: border-color 0.2s;
 }
-
-
 
 .registro-section button {
   padding: 14px 18px;
@@ -440,18 +437,15 @@ footer {
   border-radius: 16px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
   padding: 40px;
-
 }
 .login-section form {
   display: grid;
   gap: 18px;
- 
-
 }
 
 .login-section label {
   font-family: 'Barlow', sans-serif;
-  font-size: 20px  ;
+  font-size: 20px;
   color: #460505;
 }
 
@@ -459,29 +453,80 @@ footer {
   width: 100%;
   padding: 12px 14px;
   border: 1px solid #3f0707;
-  }
+}
 
-  .login-section button {
-    padding: 14px 18px;
-    border: none;
-    border-radius: 10px;
-    background: #e63312;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
-   footer {
-        background-color: #0d0d0d;
-        color: #7e7e7e;
-        text-align: center;
-        padding: 20px;
-        font-family: 'Barlow Condensed', sans-serif;
-      }
+.login-section button {
+  padding: 14px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #e63312;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+footer {
+  background-color: #0d0d0d;
+  color: #7e7e7e;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
 
-    .logo {
-      background-size: cover;
-      background-position: center;
-      width: 86px;
-    }  
+.logo {
+  background-size: cover;
+  background-position: center;
+  width: 86px;
+}
+.servicio:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.servicio img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.servicio h2 {
+  margin-top: 10px;
+}
+
+.servicio ul {
+  list-style: none;
+  padding: 0;
+}
+
+.servicio h2,
+.servicio h3 {
+  color: #ff3c00;
+}
+
+.servicios-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.servicio {
+  background: #111;
+  color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-top: 4px solid #e63946;
+}
+
+.servicio h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.servicio .precio {
+  color: #e63946;
+  font-weight: bold;
+}
