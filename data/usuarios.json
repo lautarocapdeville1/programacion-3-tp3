@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Juan Pérez",
+    "email": "juan.perez@example.com",
+    "password": "contraseña123",
+    "fechanacimiento": "1990-01-01",
+    "id": 1
+  },
+  {
+    "nombre": "María Gómez",
+    "email": "maria.lopez@example.com",
+    "password": "contraseña456",
+    "fechanacimiento": "1992-05-15",
+    "id": 2
+  },
+  {
+    "nombre": "Bautista",
+    "email": "bautitelefono@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2006-06-23"
+  },
+  {
+    "nombre": "francesco",
+    "email": "dicaprime@hotmail.com",
+    "password": "Pierremerrick",
+    "fechanacimiento": "2006-03-23"
+  },
+  {
+    "nombre": "sadas",
+    "email": "bautitelefono@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2222-03-23"
+  },
+  {
+    "nombre": "sadasdas",
+    "email": "bautitelefono@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2001-03-23"
+  },
+  {
+    "nombre": "Santiago Ibarra",
+    "email": "bautitelefono@gmail.com",
+    "password": "Patinka200",
+    "fechanacimiento": "2004-06-19"
+  },
+  {
+    "nombre": "lautaro cap",
+    "email": "capdelau@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2005-12-16"
+  },
+  {
+    "nombre": "fancyteamo",
+    "email": "santicrivera@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2006-01-13"
+  },
+  {
+    "nombre": "snapchat",
+    "email": "snapchatsinro@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2006-03-27"
+  },
+  {
+    "nombre": "shai gilgeous alexander",
+    "email": "sga@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2001-01-23"
+  },
+  {
+    "nombre": "totorek",
+    "email": "totorek@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2009-12-27"
+  },
+  {
+    "nombre": "Bautista Cutini",
+    "email": "bauticutinii@gmail.com",
+    "password": "dsdsdsdsdsd",
+    "fechanacimiento": "3333-02-23"
+  }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "nombre": "Plan Nutricional Personalizado",
+        "descripcion": "Asesoramiento con dieta según objetivos.",
+        "precio": 50000,
+        "categoria": "Nutricion"
+    },
+    {
+        "id": 2,
+        "nombre": "Evaluacion Fisica",
+        "descripcion": "Medición de rendimiento, composición corporal y estado físico general.",
+        "precio": 30000,
+        "categoria": "Evaluacion"
+    },
+    {
+        "id": 3,
+        "nombre": "Yoga",
+        "descripcion": "Clases de yoga para mejorar flexibilidad, equilibrio y bienestar general.",
+        "precio": 40000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 4,
+        "nombre": "Stretching",
+        "descripcion": "Sesiones de estiramiento para mejorar la flexibilidad y reducir el riesgo de lesiones.",
+        "precio": 20000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 5,
+        "nombre": "Pilates",
+        "descripcion": "Clases de pilates para fortalecer el core y mejorar la postura.",
+        "precio": 45000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 6,
+        "nombre": "Entrenamiento Funcional",
+        "descripcion": "Sesiones de entrenamiento funcional para mejorar la fuerza, resistencia y movilidad.",
+        "precio": 55000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 7,
+        "nombre": "Crossfit",
+        "descripcion": "Clases de crossfit para mejorar la condición física general a través de ejercicios variados e intensos.",
+        "precio": 60000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 8,
+        "nombre": "Boxeo",
+        "descripcion": "Clases de boxeo para mejorar la resistencia cardiovascular, la coordinación y la fuerza.",
+        "precio": 45000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 9,
+        "nombre": "HIIT",
+        "descripcion": "Clases de HIIT para mejorar la resistencia cardiovascular y quemar calorías.",
+        "precio": 35000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 10,
+        "nombre": "Spinning",
+        "descripcion": "Clases de spinning para mejorar la resistencia cardiovascular y tonificar las piernas.",
+        "precio": 40000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 11,
+        "nombre": "Zumba",
+        "descripcion": "Clases de zumba para mejorar la resistencia cardiovascular y divertirse al ritmo de la música.",
+        "precio": 30000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 12,
+        "nombre": "Entrenamiento Personalizado",
+        "descripcion": "Sesiones de entrenamiento personalizado para alcanzar tus objetivos específicos.",
+        "precio": 70000,
+        "categoria": "Entrenamiento"
+    },
+    {
+        "id": 13,
+        "nombre": "Masajes Deportivos",
+        "descripcion": "Masajes para aliviar la tensión muscular y mejorar la recuperación después del ejercicio.",
+        "precio": 25000,
+        "categoria": "Recuperacion"
+    }
+
+]

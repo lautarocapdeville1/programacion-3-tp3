@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Registro - Gimnasio Gabrielli">
+    <title>Registro - Gimnasio Gabrielli</title>
+    <link rel="shortcut icon" href="../assets/favicon/gimnasio_favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/registro.js">
+    const form = document.querySelector('.registro-section form');
+    const nombreInput = document.getElementById('nombre');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const fechaNacimientoInput = document.getElementById('fechanacimiento');
+
+
+
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-inner">
+          <div class="nav-logo">
+            <img src="../assets/img/Gimnasio gabreilli.jpg" alt="Logo Gimnasio Gabrielli">
+            <span>Gimnasio <strong>Gabrielli</strong></span>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="registro.html" >Registrate</a></li>
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+            <li><a href="pedido.html" class="nav-cta">Inscribirse</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="registro-main">
+      <section class="registro-section">
+        <h1>Registro de Usuario</h1>
+        <form action="http://localhost:3000/registro" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+
+          <label for="fechanacimiento">Fecha de Nacimiento:</label>
+          <input type="date" id="fechanacimiento" name="fechanacimiento" required>
+
+          <button type="submit">Registrar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
