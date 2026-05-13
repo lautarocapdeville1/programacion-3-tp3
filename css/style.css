@@ -369,13 +369,109 @@ footer {
   font-family: 'Barlow', sans-serif;
 }
 
-footer p {
+.footer p {
   margin: 0;
-}
-  margin: 0;
+
+ 
   color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;
 }
+
+.registro-main {
+  max-width: 320px;
+  margin: 60px auto;
+  padding: 24px;
+}
+
+.registro-section {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+}
+
+
+
+.registro-section form {
+  display: grid;
+  gap: 18px;
+}
+
+.registro-section label {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px  ;
+  color: #460505;
+}
+
+.registro-section input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #3f0707;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+
+
+.registro-section button {
+  padding: 14px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #e63312;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.registro-section button:hover {
+  background: #c42a0e;
+}
+.login-main {
+  max-width: 620px;
+  margin: 60px auto;
+  padding: 24px;
+}
+.login-section {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+
+}
+.login-section form {
+  display: grid;
+  gap: 18px;
+ 
+
+}
+
+.login-section label {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px  ;
+  color: #460505;
+}
+
+.login-section input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #3f0707;
+  }
+
+  .login-section button {
+    padding: 14px 18px;
+    border: none;
+    border-radius: 10px;
+    background: #e63312;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
    footer {
         background-color: #0d0d0d;
         color: #7e7e7e;
@@ -383,3 +479,9 @@ footer p {
         padding: 20px;
         font-family: 'Barlow Condensed', sans-serif;
       }
+
+    .logo {
+      background-size: cover;
+      background-position: center;
+      width: 86px;
+    }  
