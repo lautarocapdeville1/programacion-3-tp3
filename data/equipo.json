@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Lautaro Capdeville",
+    "rol": "Entrenador personal",
+    "descripcion": "Entrenador personal certificado con mas de 10 anos de experiencia. Su pasado deportivo le da un enfoque ideal para deportistas.",
+    "imagen": "../assets/img/entrenador-capdeville.jpg",
+    "alt": "Lautaro Capdeville"
+  },
+  {
+    "nombre": "Bautista Bartolini",
+    "rol": "Asesor nutricional y entrenador",
+    "descripcion": "Ex socio del gimnasio que transformo su fisico y su vida. Combina nutricion y entrenamiento para ayudar a otros a lograr sus objetivos.",
+    "imagen": "../assets/img/entrenador-babi.jpg",
+    "alt": "Bautista Bartolini"
+  },
+  {
+    "nombre": "Santino Crivera",
+    "rol": "Musculacion",
+    "descripcion": "Especialista en musculacion y entrenamiento deportivo, con rutinas exigentes orientadas al rendimiento.",
+    "imagen": "../assets/img/santino-crivera.jpg",
+    "alt": "Santino Crivera"
+  },
+  {
+    "nombre": "Bautista Cutini",
+    "rol": "Asesor deportivo",
+    "descripcion": "Cuenta con experiencia en deportes de alto rendimiento y ofrece entrenamientos personalizados para cada deportista.",
+    "imagen": "../assets/img/profe-cuti.jpg",
+    "alt": "Bautista Cutini"
+  },
+  {
+    "nombre": "Francesco Dicarli",
+    "rol": "Profesor de CrossFit y yoga grupal",
+    "descripcion": "Defensor de la salud y el bienestar, especializado en clases grupales de CrossFit y yoga.",
+    "imagen": "../assets/img/profe-diclo.jpg",
+    "alt": "Francesco Dicarli"
+  }
+]

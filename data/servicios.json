@@ -1,0 +1,15 @@
+[
+    {"id":1,"nombre":"Plan Nutricional Personalizado","precio":50000,"desc":"Asesoramiento con dieta según objetivos."},
+    {"id":2,"nombre":"Evaluacion Fisica","precio":30000,"desc":"Medición de rendimiento, composición corporal y estado físico general."},
+    {"id":3,"nombre":"Yoga","precio":40000,"desc":"Clases de yoga para mejorar flexibilidad, equilibrio y bienestar general."},
+    {"id":4,"nombre":"Stretching","precio":20000,"desc":"Sesiones de estiramiento para mejorar la flexibilidad y reducir el riesgo de lesiones."},
+    {"id":5,"nombre":"Pilates","precio":45000,"desc":"Clases de pilates para fortalecer el core y mejorar la postura."},
+    {"id":6,"nombre":"Entrenamiento Funcional","precio":55000,"desc":"Sesiones de entrenamiento funcional para mejorar la fuerza, resistencia y movilidad."},
+    {"id":7,"nombre":"Crossfit" ,"precio":60000,"desc":"Clases de crossfit para mejorar la condición física general a través de ejercicios variados e intensos."},
+    {"id":8, "nombre": "Boxeo","precio":45000,"desc":"Clases de boxeo para mejorar la resistencia cardiovascular, la coordinación y la fuerza."},
+    {"id":9, "nombre": "HIIT","precio":35000,"desc":"Clases de HIIT para mejorar la resistencia cardiovascular y quemar calorías."},
+    {"id":10, "nombre": "Spinning","precio":40000,"desc":"Clases de spinning para mejorar la resistencia cardiovascular y tonificar las piernas."},
+    {"id":11, "nombre": "Zumba","precio":30000,"desc":"Clases de zumba para mejorar la resistencia cardiovascular y divertirse al ritmo de la música."},
+    {"id":12, "nombre": "Entrenamiento Personalizado","precio":70000,"desc":"Sesiones de entrenamiento personalizado para alcanzar tus objetivos específicos."},
+    {"id":13, "nombre": "Masajes Deportivos","precio":25000,"desc":"Masajes para aliviar la tensión muscular y mejorar la recuperación después del ejercicio."}
+]
