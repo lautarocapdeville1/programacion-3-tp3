@@ -199,4 +199,3 @@ class Server {
 ## Deploy
 
 - **Backend (API):** [https://tp3-programacion.onrender.com](https://tp3-programacion.onrender.com)
-- **Frontend (GitHub Pages):** _(agregar link de GitHub Pages acá)_
