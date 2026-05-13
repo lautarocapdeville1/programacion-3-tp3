@@ -11,6 +11,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/efecto-carga.css" />
   </head>
   <body>
     <header>
@@ -39,6 +40,11 @@
     </header>
 
     <main class="contenedor-servicios">
+      <!-- Efecto de carga -->
+      <div class="contenedor_loader">
+        <div class="loader"></div>
+      </div>
+
       <h1>Servicios</h1>
       <div class="servicios-grid">
         <!-- servicios cargan automatico aca -->
@@ -54,6 +60,7 @@
     </div>
   </main>
 
+    <script src="../js/loader.js"></script>
     <script type="module" src="../js/servicios.js"></script>
   </body>
 </html>

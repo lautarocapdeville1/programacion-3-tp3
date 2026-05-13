@@ -11,6 +11,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/efecto-carga.css" />
     <style>
       #contenedor-equipo {
         display: flex;
@@ -70,6 +71,10 @@
     </header>
 
     <main>
+      <div class="contenedor_loader">
+        <div class="loader"></div>
+      </div>
+
       <section id="contenedor-equipo">
         <div class="equipo-miembro">
           <img
@@ -152,7 +157,9 @@
           </p>
         </div>
       </section>
+      <script src="../js/loader.js"></script>
     </main>
+
     <footer>
       <p>
         Copyright &copy; 2026 Gimnasio Gabrielli. Todos los derechos reservados.
