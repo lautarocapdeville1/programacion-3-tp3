@@ -6,7 +6,7 @@
 |--------|--------|
 | Lautaro Capdeville | lautarocapdeville1 |
 | Bautista Cutini | bautista-cutini |
-| Francesco Dicarli | francesco-dicarli |
+| Francesco Dicarli | fran-perfil |
 | Santino Crivera | Santino-Crivera |
 | Bautista Bartolini | Bautista-Bartolini |
 
