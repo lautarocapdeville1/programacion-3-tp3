@@ -18,7 +18,6 @@ class Server {
   }
 
   routes() {
-    this.app.use('/servicios', require('../routes/serviciosRoutes'))
     this.app.use('/api', require('../routes/registroRoutes'))
     this.app.use('/api/equipo', require('../routes/equipoRouters'))
     this.app.use('/servicios', require('../routes/serviciosRoutes'))

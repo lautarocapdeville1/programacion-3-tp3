@@ -66,5 +66,11 @@
     "email": "sga@gmail.com",
     "password": "asdsadasd",
     "fechanacimiento": "2001-01-23"
+  },
+  {
+    "nombre": "totorek",
+    "email": "totorek@gmail.com",
+    "password": "asdsadasd",
+    "fechanacimiento": "2009-12-27"
   }
 ]
