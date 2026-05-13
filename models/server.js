@@ -13,9 +13,11 @@ class Server {
   }
 
   middleware() {
-    this.app.use(cors())
-    this.app.use(express.json())
-  }
+  this.app.use(cors({
+    origin: ['http://127.0.0.1:5500', 'http://localhost:5500']
+  }))
+  this.app.use(express.json())
+}
 
   routes() {
     this.app.use('/api', require('../routes/registroRoutes'))
@@ -37,7 +39,7 @@ class Server {
     })
   }
 
-  HEAD
+  
   listen() {
     this.app.listen(this.port, () => {
       console.log(`La API esta escuchando el el puerto: ${this.port}`)
@@ -45,5 +47,4 @@ class Server {
   }
 }
 
-HEAD
 module.exports = Server

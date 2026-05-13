@@ -1,11 +1,15 @@
 const express = require('express')
+const cors = require('cors')
 const fs = require('fs')
 const path = require('path')
 
 const app = express()
 
+app.use(cors({ origin: ['http://127.0.0.1:5500', 'http://localhost:5500'] }))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+
+app.use('/servicios', require('./routes/serviciosRoutes'))
 
 const rutaArchivo = path.join(__dirname, 'data/usuarios.json')
 

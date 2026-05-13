@@ -17,7 +17,7 @@ async function getServicios ()
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">${servicios.nombre}</h5>
-                    <p class="card-text">${servicios.desc}</p>
+                    <p class="card-text">${servicios.descripcion}</p>
                     <p class="precio">$${servicios.precio}</p>
                     <button class="btn-ver-mas" data-id="${servicios.id}">Ver más</button>
                 </div>
@@ -32,7 +32,7 @@ async function getServicios ()
                 const servicio = await response.json();
 
                 document.querySelector('#modal-nombre').textContent = servicio.nombre;
-                document.querySelector('#modal-desc').textContent = servicio.desc;
+                document.querySelector('#modal-desc').textContent = servicio.descripcion;
                 document.querySelector('#modal-precio').textContent = `$${servicio.precio}`;
 
                 document.querySelector('#modal').classList.remove('oculto');
