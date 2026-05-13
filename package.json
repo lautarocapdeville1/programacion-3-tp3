@@ -1,7 +1,7 @@
 {
   "name": "tp3",
   "version": "1.0.0",
-  "description": "grupo1",
+  "description": "grupo 1",
   "homepage": "https://github.com/lautarocapdeville1/programacion-3-tp3#readme",
   "bugs": {
     "url": "https://github.com/lautarocapdeville1/programacion-3-tp3/issues"
@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "eslint": "^10.3.0",
-    "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
     "nodemon": "^3.1.14",
     "standard": "^17.1.2"
