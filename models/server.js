@@ -3,20 +3,20 @@ const cors = require('cors')
 require('dotenv').config()
 
 class Server {
-  constructor () {
+  constructor() {
     this.app = express()
     this.port = process.env.PORT || 3000
     this.middleware()
     this.routes()
   }
 
-  middleware () {
+  middleware() {
     this.app.use(cors())
   }
 
-  routes () {
+  routes() {
     this.app.use('/servicios', require('../routes/serviciosRoutes'))
-
+    this.app.use('/perfil', require('../routes/perfilRoutes'))
     // manejo de errores
     this.app.use((req, res, next) => {
       return res.status(400).json({ msg: 'Error.' })
@@ -31,7 +31,7 @@ class Server {
     })
   }
 
-  listen () {
+  listen() {
     this.app.listen(this.port, () => {
       console.log(`La API esta escuchando el el puerto: ${this.port}`)
     })
